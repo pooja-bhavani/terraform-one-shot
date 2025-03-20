@@ -1,7 +1,7 @@
 # terraform-one-shot
 ![image](https://github.com/user-attachments/assets/e7c9f04c-d542-43ba-a025-113608f249fa)
 
-What is Interpolation in Terraform?
+# What is Interpolation in Terraform?
 
 Interpolation is the method used to dynamically reference values within Terraform configuration blocks. It allows us to extract and manipulate variables efficiently.
 
