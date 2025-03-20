@@ -5,18 +5,18 @@
 
 Interpolation is the method used to dynamically reference values within Terraform configuration blocks. It allows us to extract and manipulate variables efficiently.
 
-What is Terraform?
+# What is Terraform?
 
 Terraform is an open-source tool that enables us to automate infrastructure across multiple cloud providers by writing declarative scripts.
 
-Terraform vs. Ansible – What’s the Difference?
+# Terraform vs. Ansible – What’s the Difference?
 
 Both are IaC tools, but their purposes are different:
 
 * Terraform provisions (creates) infrastructure.
 * Ansible is mainly used for configuration management, software installation, and updates.
 
-Terraform vs. AWS CloudFormation
+# Terraform vs. AWS CloudFormation
 
 * CloudFormation is AWS-specific and relies on predefined templates for infrastructure deployment.
 * Terraform, on the other hand, is cloud-agnostic, means it works across multiple cloud providers like AWS, Azure, and GCP.
