@@ -5,7 +5,7 @@ resource "aws_instance" "my_instance" {
     security_groups = [aws_security_group.my_security_group.name]  
     instance_type = each.value
     ami = var.ec2_ami_id
-    user_data = file("install_nginx.sh")
+    user_data = file("install_nginx.sh") 
 
 # To create multiple type of ec2 instances with different tags    
 resource "aws_instance" "my_instance" {
