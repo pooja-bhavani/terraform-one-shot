@@ -1,6 +1,6 @@
 # To create multiple ec2 instances
 resource "aws_instance" "my_instance" {
-  cuont = 2
+  count = 2
   key_name = aws_key_pair.my-key.key_name
     security_groups = [aws_security_group.my_security_group.name]  
     instance_type = each.value
